@@ -1,0 +1,10 @@
+Working:-
+
+->We are storing the scores in the firebase database, 
+and we are fetching the scores from the database to display in the leaderboard.
+
+->How to Run:- 	Give a command - npm run dev
+
+->Username:- The username should be anything but it should end with a character A,B,or C 
+				(Example:-StudentA,StudentB,StudentC) 
+			

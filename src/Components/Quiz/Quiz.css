@@ -1,0 +1,157 @@
+* {
+  font-family: "Poppins";
+}
+
+.container {
+  width: 640px;
+  margin: auto;
+  margin-top: 150px;
+  background-image: linear-gradient(
+    86.3deg,
+    rgba(0, 119, 182, 1) 3.6%,
+    rgba(8, 24, 68, 1) 87.6%
+  );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+  box-shadow: 10px -10px 25px 5px rgb(60, 60, 131),
+    -10px 10px 25px 5px rgb(60, 60, 131);
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background: white;
+}
+
+.container h2 {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container button {
+  margin: auto;
+  width: 250px;
+  height: 65px;
+  background: white;
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.container .index {
+  margin: auto;
+  font-size: 18px;
+}
+
+.container .correct {
+  background: #00d397;
+  border-color: #00d397;
+}
+
+.container .wrong {
+  background: #ff4a4a;
+  border-color: #ff4a4a;
+}
+
+.Lcontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.Lcontainer h1 {
+  padding-left: 20px;
+}
+
+.Ltable {
+  padding: 1.2rem;
+  font-size: 1.4rem;
+  border: 1.2px solid aliceblue;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(
+    86.3deg,
+    rgba(0, 119, 182, 1) 3.6%,
+    rgba(8, 24, 68, 1) 87.6%
+  );
+  color: white;
+}
+
+.Lhead {
+  color: white;
+  border: 1.2px solid aliceblue;
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+}
+
+.Lrow {
+  border: 1.2px solid aliceblue;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  color: white;
+  font-weight: normal;
+}
+
+.Lbutton {
+  margin: auto;
+  width: 250px;
+  height: 65px;
+  background: white;
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.Hform {
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.Hform > input {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  padding: 0.8rem;
+  border-radius: 1.2rem;
+  border: none;
+  background-color: rgb(234, 231, 231);
+}
+
+.Hform > button {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 1.2rem;
+  border: none;
+}
+
+.Hform > button:hover {
+  cursor: pointer;
+}
